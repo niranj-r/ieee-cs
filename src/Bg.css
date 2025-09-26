@@ -1,0 +1,21 @@
+.claim {
+    padding: 10px 20px;
+    background: linear-gradient(180deg, #ffc800, #ff5e00);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .claim {
+        padding: 8px 16px;
+        font-size: 14px;
+        background: linear-gradient(180deg, #ffc800, #ff5e00);
+        position: absolute;
+        top: 200px;
+        right: 150px;
+        align-self: center;
+    }
+    
+}
