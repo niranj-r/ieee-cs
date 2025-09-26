@@ -5,10 +5,10 @@ const Background = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setBg('./images/vi-mob.jpg');
+      if (window.innerWidth <= 450) {
+        setBg('./images/phone-bg.png');
       } else {
-        setBg('./images/vi-arcane.jpg');
+        setBg('./images/lap-bg.png');
       }
     };
 
@@ -28,9 +28,6 @@ const Background = () => {
         height: '100vh',
       }}
     >
-      <h1 style={{ color: 'white', textAlign: 'center', paddingTop: '40vh' }}>
-        Responsive Background
-      </h1>
     </div>
   );
 };
